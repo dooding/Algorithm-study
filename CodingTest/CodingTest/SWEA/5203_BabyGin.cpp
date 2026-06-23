@@ -1,7 +1,14 @@
-﻿#include <iostream>
+﻿//핵심 아이디어
+/* 1. 숫자 갯수를 배열 인덱스로 카운팅
+* 2. Triplete 선 제거, run 제거
+* 풀이: https://dooding.tistory.com/66
+*/
+
+
+#include <iostream>
 using namespace std;
 
-int main()
+int main() 
 {
 	int counts[10] = { 0 };
 	int isTriplet = 0;
