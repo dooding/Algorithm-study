@@ -1,4 +1,10 @@
-﻿#include <iostream>
+﻿//핵심 아이디어
+/*
+* 1. 배열과 다르게 방 크기는 미리 정하지 않아도 됨.
+* 2. 인덱스가 아닌 이터레이터로 관리 (연속된 공간 X, 연결리스트 사용)
+* 3. 설명 : https://dooding.tistory.com/65
+*/
+#include <iostream>
 #include <list>
 using namespace std;
 
