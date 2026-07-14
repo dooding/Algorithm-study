@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="inflearn\unique_Function.cpp">
+    <ClCompile Include="hy.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
