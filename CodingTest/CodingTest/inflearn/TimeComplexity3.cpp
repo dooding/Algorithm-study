@@ -17,6 +17,8 @@ int main()
 	for (int i = 1; i <= n; i++)
 		a[i - 1] = i;
 	int sum = go(0, n - 1);
+	cout << "sum : " << sum << endl;
+	cout << "cnt : " << cnt << endl;
 }
 
 //주요 알고리즘인 go 함수가 몇 번 호출되었는가가 핵심.
