@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="inflearn\cosal\1A.cpp">
+    <ClCompile Include="inflearn\cosal\1B.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
