@@ -18,28 +18,28 @@ int a[n][n] = {
 
 bool v[10] = { false };
 
-void search(int f, int t) { // int t 없애고 for 문을 계속 0부터 돌려도 됨.
+void search(int f) { // int t 없애고 for 문을 계속 0부터 돌려도 됨.
 
 	if (f > n) return;
 
-	for (int i = t; i < n; i++) {
+	for (int i = 0; i < n; i++) {
 		if (a[f][i])
 		{
 			if (!v[f])
 			{
 				cout << f << '\n';
 				v[f] = true;
-				search(i, 0);
+				search(i);
 			}
 		}
 	}
-	search(f+1, 0);
+	search(f+1);
 
 }
 
 int main()
 {
-	search(0,0);
+	search(0);
 
 	return 0;
 }
