@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="inflearn\7directionVector.cpp">
+    <ClCompile Include="inflearn\9DFS.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
